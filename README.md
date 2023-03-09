@@ -12,8 +12,8 @@ This project is to retrieve top k releated sentences in one meeting transcript f
 
 ## Model Structure
 
-1. Utilize sentence bert model `` to encode each sentence in the meeting transcript into an embedding, build Faiss index.
-2. For the input category, catenate the key words and phrases into on query, utilize sentence bert model `` to encode the query into an embeddings and do Faiss similarity search. 
+1. Utilize sentence bert model `sentence-transformers/all-MiniLM-L6-v2` to encode each sentence in the meeting transcript into an embedding, build Faiss index.
+2. For the input category, catenate the key words and phrases into on query, utilize sentence bert model `sentence-transformers/all-MiniLM-L6-v2` to encode the query into an embeddings and do Faiss similarity search.
 
 ## Data Description
 
